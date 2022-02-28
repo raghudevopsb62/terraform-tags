@@ -1,4 +1,4 @@
-data "terraform_remote_state" "vpc" {
+data "terraform_remote_state" "ec2" {
   backend = "s3"
   config = {
     bucket = "terraform-b62"
